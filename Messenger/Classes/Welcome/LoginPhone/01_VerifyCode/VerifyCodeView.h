@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2018 Related Code - http://relatedcode.com
+// Copyright (c) 2016 Related Code - http://relatedcode.com
 //
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -12,20 +12,19 @@
 #import "utilities.h"
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
-@protocol VerifySMSDelegate
+@protocol VerifyCodeDelegate
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 
-- (void)verifySMSSucceed;
-- (void)verifySMSFailed;
+- (void)didVerifyCode:(NSString *)code;
 
 @end
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
-@interface VerifySMSView : UIViewController <UITextFieldDelegate>
+@interface VerifyCodeView : UIViewController <UITextFieldDelegate>
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 
 - (id)initWith:(NSString *)countryCode_ phoneNumber:(NSString *)phoneNumber_;
 
-@property (nonatomic, assign) IBOutlet id<VerifySMSDelegate>delegate;
+@property (nonatomic, assign) IBOutlet id<VerifyCodeDelegate>delegate;
 
 @end

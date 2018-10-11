@@ -32,7 +32,6 @@
 #import <Realm/Realm.h>
 #import <Sinch/Sinch.h>
 #import <SinchService.h>
-#import <SinchVerification/SinchVerification.h>
 
 #pragma mark -
 

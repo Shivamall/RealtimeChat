@@ -183,8 +183,6 @@
 		296021EC1F2CF5F600544468 /* LoginEmailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296021331F2CF5F600544468 /* LoginEmailView.xib */; };
 		296021ED1F2CF5F600544468 /* LoginGoogleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 296021361F2CF5F600544468 /* LoginGoogleView.m */; };
 		296021EE1F2CF5F600544468 /* LoginGoogleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 296021371F2CF5F600544468 /* LoginGoogleView.xib */; };
-		296021EF1F2CF5F600544468 /* VerifySMSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960213B1F2CF5F600544468 /* VerifySMSView.m */; };
-		296021F01F2CF5F600544468 /* VerifySMSView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2960213C1F2CF5F600544468 /* VerifySMSView.xib */; };
 		296021F11F2CF5F600544468 /* LoginPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2960213E1F2CF5F600544468 /* LoginPhoneView.m */; };
 		296021F21F2CF5F600544468 /* LoginPhoneView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2960213F1F2CF5F600544468 /* LoginPhoneView.xib */; };
 		296021F31F2CF5F600544468 /* RegisterEmailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 296021421F2CF5F600544468 /* RegisterEmailView.m */; };
@@ -437,6 +435,8 @@
 		29D29F011D9A59E4006CA074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29D29F001D9A59E4006CA074 /* Assets.xcassets */; };
 		29D29F041D9A59E4006CA074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D29F021D9A59E4006CA074 /* LaunchScreen.storyboard */; };
 		29E5AD55209EF2A000AC2E67 /* UploadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E5AD53209EF29F00AC2E67 /* UploadManager.m */; };
+		29ED12402153E2FD00C2BED4 /* VerifyCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ED123D2153E2FD00C2BED4 /* VerifyCodeView.m */; };
+		29ED12412153E2FD00C2BED4 /* VerifyCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29ED123E2153E2FD00C2BED4 /* VerifyCodeView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -733,9 +733,6 @@
 		296021351F2CF5F600544468 /* LoginGoogleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginGoogleView.h; sourceTree = "<group>"; };
 		296021361F2CF5F600544468 /* LoginGoogleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginGoogleView.m; sourceTree = "<group>"; };
 		296021371F2CF5F600544468 /* LoginGoogleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginGoogleView.xib; sourceTree = "<group>"; };
-		2960213A1F2CF5F600544468 /* VerifySMSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifySMSView.h; sourceTree = "<group>"; };
-		2960213B1F2CF5F600544468 /* VerifySMSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifySMSView.m; sourceTree = "<group>"; };
-		2960213C1F2CF5F600544468 /* VerifySMSView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerifySMSView.xib; sourceTree = "<group>"; };
 		2960213D1F2CF5F600544468 /* LoginPhoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPhoneView.h; sourceTree = "<group>"; };
 		2960213E1F2CF5F600544468 /* LoginPhoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPhoneView.m; sourceTree = "<group>"; };
 		2960213F1F2CF5F600544468 /* LoginPhoneView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginPhoneView.xib; sourceTree = "<group>"; };
@@ -1001,6 +998,9 @@
 		29D29F051D9A59E4006CA074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29E5AD53209EF29F00AC2E67 /* UploadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadManager.m; sourceTree = "<group>"; };
 		29E5AD54209EF29F00AC2E67 /* UploadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadManager.h; sourceTree = "<group>"; };
+		29ED123D2153E2FD00C2BED4 /* VerifyCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyCodeView.m; sourceTree = "<group>"; };
+		29ED123E2153E2FD00C2BED4 /* VerifyCodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VerifyCodeView.xib; sourceTree = "<group>"; };
+		29ED123F2153E2FD00C2BED4 /* VerifyCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyCodeView.h; sourceTree = "<group>"; };
 		7393A6F3A4D6270AF7ACDCFA /* Pods-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.release.xcconfig"; path = "Pods/Target Support Files/Pods-app/Pods-app.release.xcconfig"; sourceTree = "<group>"; };
 		FAF0EF40EF90293E7039F76D /* libPods-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC28F63C1114893726170446 /* Pods-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-app/Pods-app.debug.xcconfig"; sourceTree = "<group>"; };
@@ -1811,22 +1811,12 @@
 		296021381F2CF5F600544468 /* LoginPhone */ = {
 			isa = PBXGroup;
 			children = (
-				296021391F2CF5F600544468 /* 01_VerifySMS */,
+				29ED123C2153E2FD00C2BED4 /* 01_VerifyCode */,
 				2960213D1F2CF5F600544468 /* LoginPhoneView.h */,
 				2960213E1F2CF5F600544468 /* LoginPhoneView.m */,
 				2960213F1F2CF5F600544468 /* LoginPhoneView.xib */,
 			);
 			path = LoginPhone;
-			sourceTree = "<group>";
-		};
-		296021391F2CF5F600544468 /* 01_VerifySMS */ = {
-			isa = PBXGroup;
-			children = (
-				2960213A1F2CF5F600544468 /* VerifySMSView.h */,
-				2960213B1F2CF5F600544468 /* VerifySMSView.m */,
-				2960213C1F2CF5F600544468 /* VerifySMSView.xib */,
-			);
-			path = 01_VerifySMS;
 			sourceTree = "<group>";
 		};
 		296021401F2CF5F600544468 /* RegisterEmail */ = {
@@ -2387,6 +2377,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		29ED123C2153E2FD00C2BED4 /* 01_VerifyCode */ = {
+			isa = PBXGroup;
+			children = (
+				29ED123F2153E2FD00C2BED4 /* VerifyCodeView.h */,
+				29ED123D2153E2FD00C2BED4 /* VerifyCodeView.m */,
+				29ED123E2153E2FD00C2BED4 /* VerifyCodeView.xib */,
+			);
+			path = 01_VerifyCode;
+			sourceTree = "<group>";
+		};
 		7B8B1B7262BA6687D240D5CB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -2616,6 +2616,7 @@
 				298990171F1B6FFD00AC73B3 /* stickerlocal77@2x.png in Resources */,
 				2989900B1F1B6FFD00AC73B3 /* stickerlocal65@2x.png in Resources */,
 				2989905C1F1B6FFD00AC73B3 /* stickersend68@2x.png in Resources */,
+				29ED12412153E2FD00C2BED4 /* VerifyCodeView.xib in Resources */,
 				2989901A1F1B6FFD00AC73B3 /* stickersend02@2x.png in Resources */,
 				298990381F1B6FFD00AC73B3 /* stickersend32@2x.png in Resources */,
 				29898FFF1F1B6FFD00AC73B3 /* stickerlocal53@2x.png in Resources */,
@@ -2630,7 +2631,6 @@
 				298990371F1B6FFD00AC73B3 /* stickersend31@2x.png in Resources */,
 				29BB8FAA1F5C266100560F3F /* chat_callaudio@2x.png in Resources */,
 				29898FCF1F1B6FFD00AC73B3 /* stickerlocal05@2x.png in Resources */,
-				296021F01F2CF5F600544468 /* VerifySMSView.xib in Resources */,
 				2960215D1F2CF5F600544468 /* CountriesView.xib in Resources */,
 				29898FE41F1B6FFD00AC73B3 /* stickerlocal26@2x.png in Resources */,
 				2989904A1F1B6FFD00AC73B3 /* stickersend50@2x.png in Resources */,
@@ -2881,7 +2881,6 @@
 				2960218E1F2CF5F600544468 /* BlockedView.m in Sources */,
 				295D938C209496CF00A222CA /* DBGroup.m in Sources */,
 				296021A61F2CF5F600544468 /* SwitchAccountCell.m in Sources */,
-				296021EF1F2CF5F600544468 /* VerifySMSView.m in Sources */,
 				296021BB1F2CF5F600544468 /* LinkedUsers.m in Sources */,
 				296021581F2CF5F600544468 /* CallAudioView.m in Sources */,
 				296021781F2CF5F600544468 /* CallsView.m in Sources */,
@@ -2926,6 +2925,7 @@
 				295D938F2094A0D500A222CA /* Groups.m in Sources */,
 				2960218A1F2CF5F600544468 /* StatusView.m in Sources */,
 				296021C01F2CF5F600544468 /* Chat.m in Sources */,
+				29ED12402153E2FD00C2BED4 /* VerifyCodeView.m in Sources */,
 				296021E21F2CF5F600544468 /* DBBlocked.m in Sources */,
 				290D1A0B1F8BCEB800CFBFB0 /* Blockers.m in Sources */,
 				296021981F2CF5F600544468 /* NetworkView.m in Sources */,

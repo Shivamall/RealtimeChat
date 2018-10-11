@@ -231,7 +231,7 @@
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 {
-
+	[[FIRAuth auth] setAPNSToken:deviceToken type:FIRAuthAPNSTokenTypeUnknown];
 }
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
@@ -239,6 +239,17 @@
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 {
 
+}
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)notification fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+//-------------------------------------------------------------------------------------------------------------------------------------------------
+{
+	if ([[FIRAuth auth] canHandleNotification:notification])
+	{
+		completionHandler(UIBackgroundFetchResultNoData);
+		return;
+	}
 }
 
 #pragma mark - Home screen dynamic quick action methods

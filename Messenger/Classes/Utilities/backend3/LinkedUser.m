@@ -96,21 +96,21 @@
 	if (dbuser.picture != nil)		user[FUSER_PICTURE] = dbuser.picture;
 	if (dbuser.thumbnail != nil)	user[FUSER_THUMBNAIL] = dbuser.thumbnail;
 	//---------------------------------------------------------------------------------------------------------------------------------------------
-	user[FUSER_KEEPMEDIA]		= @(dbuser.keepMedia);
-	user[FUSER_NETWORKIMAGE]	= @(dbuser.networkImage);
-	user[FUSER_NETWORKVIDEO]	= @(dbuser.networkVideo);
-	user[FUSER_NETWORKAUDIO]	= @(dbuser.networkAudio);
+	user[FUSER_KEEPMEDIA]			= @(dbuser.keepMedia);
+	user[FUSER_NETWORKIMAGE]		= @(dbuser.networkImage);
+	user[FUSER_NETWORKVIDEO]		= @(dbuser.networkVideo);
+	user[FUSER_NETWORKAUDIO]		= @(dbuser.networkAudio);
 	//---------------------------------------------------------------------------------------------------------------------------------------------
 	if (dbuser.wallpaper != nil)	user[FUSER_WALLPAPER] = dbuser.wallpaper;
 	//---------------------------------------------------------------------------------------------------------------------------------------------
 	if (dbuser.loginMethod != nil)	user[FUSER_LOGINMETHOD] = dbuser.loginMethod;
 	if (dbuser.oneSignalId != nil)	user[FUSER_ONESIGNALID] = dbuser.oneSignalId;
 	//---------------------------------------------------------------------------------------------------------------------------------------------
-	user[FUSER_LASTACTIVE]		= @(dbuser.lastActive);
-	user[FUSER_LASTTERMINATE]	= @(dbuser.lastTerminate);
+	user[FUSER_LASTACTIVE]			= @(dbuser.lastActive);
+	user[FUSER_LASTTERMINATE]		= @(dbuser.lastTerminate);
 	//---------------------------------------------------------------------------------------------------------------------------------------------
-	user[FUSER_CREATEDAT]		= @(dbuser.createdAt);
-	user[FUSER_UPDATEDAT]		= @(dbuser.updatedAt);
+	user[FUSER_CREATEDAT]			= @(dbuser.createdAt);
+	user[FUSER_UPDATEDAT]			= @(dbuser.updatedAt);
 	//---------------------------------------------------------------------------------------------------------------------------------------------
 	return user;
 }

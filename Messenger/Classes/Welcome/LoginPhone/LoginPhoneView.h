@@ -12,7 +12,7 @@
 #import "utilities.h"
 
 #import "CountriesView.h"
-#import "VerifySMSView.h"
+#import "VerifyCodeView.h"
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 @protocol LoginPhoneDelegate
@@ -23,7 +23,7 @@
 @end
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
-@interface LoginPhoneView : UIViewController <UITextFieldDelegate, CountriesDelegate, VerifySMSDelegate>
+@interface LoginPhoneView : UIViewController <UITextFieldDelegate, CountriesDelegate, VerifyCodeDelegate>
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 
 @property (nonatomic, assign) IBOutlet id<LoginPhoneDelegate>delegate;
